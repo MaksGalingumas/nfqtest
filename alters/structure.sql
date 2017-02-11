@@ -1,0 +1,10 @@
+CREATE TABLE `books` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`title` VARCHAR(256) NOT NULL,
+	`release_date` INT(11) NOT NULL,
+	`author` VARCHAR(256) NOT NULL,
+	`genre` VARCHAR(15) NOT NULL,
+	PRIMARY KEY (`id`)
+)
+ENGINE=InnoDB
+;
